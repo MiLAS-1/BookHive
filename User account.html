@@ -4,20 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Account - BookHive</title>
-    <!-- Add any necessary styles or scripts here -->
+    <style>
+        /*User Account CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        /* User account form */
+        .user-form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .user-form h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .user-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .user-form input[type="text"],
+        .user-form input[type="password"],
+        .user-form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .user-form input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .user-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .user-form p {
+            margin-top: 15px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>User Account</h1>
-            <!-- Add navigation or other content specific to the user account page -->
+            <h1>BookHive - Your Online Bookstore Haven</h1>
+            <nav>
+                <ul>
+                    <li><a href="Home Page.html">Home</a></li>
+                    <li><a href="Books.html">Books</a></li>
+                    <li><a href="Authors.html">Authors</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <div class="container">
-        <!-- Add content for the user account page here -->
-        <p>Welcome to your BookHive user account page!</p>
-        <p>You can manage your account details, orders, and preferences here.</p>
+        <div class="user-form">
+            <h2>User Account Login / Sign Up</h2>
+            <form action="#" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <input type="submit" value="Login">
+            </form>
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
     </div>
 
     <footer>
@@ -27,49 +144,3 @@
     </footer>
 </body>
 </html>
-/* public/styles.css */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-}
-
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.container p {
-    font-size: 18px;
-}
-
