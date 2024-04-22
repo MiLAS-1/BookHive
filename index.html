@@ -4,208 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookHive - Your Online Bookstore Haven</title>
-    <style>
-       /* Home Page CSS styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            position: relative;
-        }
-
-        header {
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 36px;
-        }
-
-        nav {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-            font-size: 18px;
-        }
-
-        .banner {
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        .banner h2 {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-
-        .banner p {
-            font-size: 18px;
-            margin-bottom: 30px;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            font-size: 16px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn:hover {
-            background-color: #0056b3;
-        }
-
-        /* Book images */
-        .book-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin-top: 50px;
-        }
-
-        .book {
-            width: calc(33.33% - 20px);
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .book img {
-            width: 200px;
-            height: 300px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .book p {
-            font-size: 16px;
-            margin-top: 10px;
-        }
-
-        /* Search bar */
-        .search-bar {
-            text-align: left;
-            position: absolute;
-            top: 20px;
-            left: 20px;
-        }
-
-        /* User account bar */
-        .user-account {
-            text-align: center;
-            margin-top: 80px;
-            
-        }
-
-        /* Cart symbol */
-        .cart {
-            text-align: right;
-            position: absolute;
-            top: 20px;
-            right: 20px;
-        }
-
-         .logo  {
-             position: absolute;
-             width: 100px;
-             height: 100px;
-             margin-left: -60px;
-             margin-top: 20px;
-             top: 10px;
-             left: -60px;
-             border-radius: 20%; /* Make the logo circular */
-             overflow: hidden; /* Ensure the image stays within the circular boundary */
-        }
-
-        .logo img{
-            border-radius: 10px;
-        }
-       
-
-        /* More option */
-        .more-option {
-            position: absolute;
-            bottom: 20px;
-            right: 80px;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #000000;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            position: below;
-            bottom: 0;
-            width: 100%;
-        }
-
-        footer ul {
-            list-style-type: none;
-            padding: 0;
-            margin-top: 20px;
-        }
-
-        footer ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        footer ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 14px;
-        }
-        footer ul {
-            list-style-type: none;
-            padding: 0;
-            margin-top: 20px;
-        }
-
-        footer ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        footer ul li b {
-            color: #ccfa02;
-            text-decoration: none;
-            font-size: 14px;
-        }
-
-        footer ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -217,7 +16,7 @@
             <h1>BookHive - Your Online Bookstore Haven</h1>
             <nav>
                 <ul>
-                    <li><a href="Home Page.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="Books.html">Books</a></li>
                     <li><a href="Authors.html">Authors</a></li>
                     <li><a href="About.html">About</a></li>
@@ -230,44 +29,44 @@
     <div class="container">
         <div class="banner">
             <h2>Welcome to BookHive</h2>
-            <p>Discover your next favorite book with us</p>
+            <p>Discover your next favorite book with us!!!!</p>
             <a href= "Browse Books.html" class="btn">Browse Books</a>
         </div>
 
         <!-- Book images -->
         <div class="book-container">
             <div class="book">
-                <a href="Purchase Book.html"> ✔</a></li>
+                <a href="Purchase_Book.html"> ✔</a></li>
                 <img src="images/Rmeo and Juliet.jpg" alt="Book 1">
                 <p>Romeo & Juliet</p>
                 <p>GH₵79.6</p> <!-- Price tag -->
             </div>
             <div class="book">
-                <a href="Purchase Book.html"> ✔</a></li>
+                <a href="Purchase_Book.html"> ✔</a></li>
                 <img src="images/Harry Potter.jpg" alt="Book 2">
                 <p>Harry Potter</p>
                 <p>GH₵59.8</p> <!-- Price tag -->
             </div>
             <div class="book">
-                <a href="Purchase Book.html"> ✔</a></li>
+                <a href="Purchase_Book.html"> ✔</a></li>
                 <img src="images/The Cockcrow.jpg" alt="Book 3">
                 <p>The Cockcrow</p>
                 <p>GH₵29.7</p> <!-- Price tag -->
             </div>
             <div class="book">
-                <a href="Purchase Book.html"> ✔</a></li>
+                <a href="Purchase_Book.html"> ✔</a></li>
                 <img src="images/Son of Umbele.jpg" alt="Book 4">
                 <p>Son Of Umbele</p>
                 <p>GH₵30.6</p> <!-- Price tag -->
             </div>
             <div class="book">
-                <a href="Purchase Book.html"> ✔</a></li>
+                <a href="Purchase_Book.html"> ✔</a></li>
                 <img src="images/Dream of Red Chamber.jpg"alt="Book 5">
                 <p>Dream of The Red Chamber</p>
                 <p>GH₵88.2</p> <!-- Price tag -->
             </div>
             <div class="book">
-                <a href="Purchase Book.html"> ✔</a></li>
+                <a href="Purchase_Book.html"> ✔</a></li>
                 <img src="images/The Hobbit.jpg" alt="Book 6">
                 <p>The Hobbit</p>
                 <p>GH₵62.4</p> <!-- Price tag -->
@@ -289,12 +88,12 @@
 
     <!-- User account bar -->
     <div class="user-account">
-        <a href="User account.html">Sign In</a> | <a href="User account.html">Create Account</a>
+        <a href="User_account.html">Sign In</a> | <a href="User_account.html">Create Account</a>
     </div>
 
     <!-- Cart symbol -->
     <div class="cart">
-        <a href="Purchase Book.html">Cart</a>
+        <a href="Purchase_Book.html">Cart</a>
         <img src="images/shopping-cart.jpg" alt="Cart"  width="30";>
     </div>
 
@@ -304,11 +103,11 @@
     <footer>
         <ul>
             <li><a href="Contact.html">Contact Us</a></li>
-            <li><a href="Terms and Conditions.html">Terms and Conditions</a></li>
+            <li><a href="Terms_and_Conditions.html">Terms and Conditions</a></li>
             <li><a href="Privacy.html">Privacy</a></li>
             <li><a href="About.html">About Us</a></li>
-            <li><a href="Ethics and Policy.html">Ethics and Policy</a></li>
-            <li><a href="Facts and Checking policy.html">Facts Checking Policy</a></li>
+            <li><a href="Ethics _and_Policy.html">Ethics and Policy</a></li>
+            <li><a href="Facts_and_Checking policy.html">Facts Checking Policy</a></li>
         </ul>
         <u2>
         <li><b href="#">Copyright@BOOKHIVE INC. ©2024</b></li>
